@@ -1,0 +1,38 @@
+#navbar {
+    background: rgb(119, 115, 115);
+    color: #fff;
+    overflow: hidden;
+    padding-left: 20px;
+}
+
+#navbar a{
+    color:rgb(49, 48, 48);  
+}
+#navbar h1{
+    float: left;
+    padding-top: 20px;
+}
+
+#navbar ul{
+    list-style: none;
+    float: right;
+    padding-right: 10px;
+}
+
+#navbar ul li {
+    float:left;
+    font-weight: bold;
+    padding-right: 2rem;
+    
+}
+
+#navbar ul li a {
+    display: flex;
+    padding: 20px;
+    text-align: center;
+    
+}
+#navbar ul li a:hover,
+#navbar ul li a.active {
+    color: #af7e5c
+}
