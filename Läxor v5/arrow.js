@@ -1,12 +1,13 @@
 /*Scroll to top when arrow up clicked BEGIN*/
 $(window).scroll(function() {
     var height = $(window).scrollTop();
-    if (height > 2) {
+    if (height > 100) {
         $('#back2Top').fadeIn();
     } else {
         $('#back2Top').fadeOut();
     }
 });
+
 $(document).ready(function() {
     $("#back2Top").click(function(event) {
         event.preventDefault();
